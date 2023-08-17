@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Asif Islam</title>
+    <link>https://asifislam.dev/categories/projects/</link>
+    <description>Recent content in Projects on Asif Islam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 09:09:27 -0400</lastBuildDate><atom:link href="https://asifislam.dev/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://asifislam.dev/posts/my-first-post/</link>
+      <pubDate>Thu, 17 Aug 2023 09:09:27 -0400</pubDate>
+      
+      <guid>https://asifislam.dev/posts/my-first-post/</guid>
+      <description>Introduction Welcome to my new website - currently a work in progress.
+In the meantime, feel free to explore or visit my LinkedIn!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Asif Islam</title>
-    <link>https://asifislam.dev/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Asif Islam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jun 2022 11:10:36 +0800</lastBuildDate><atom:link href="https://asifislam.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 09:09:27 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://asifislam.dev/tags/blog/</link>
-      <pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
+      <link>/tags/blog/</link>
+      <pubDate>Thu, 17 Aug 2023 09:09:27 -0400</pubDate>
       
-      <guid>https://asifislam.dev/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://asifislam.dev/tags/news/</link>
+      <link>/tags/news/</link>
       <pubDate>Wed, 18 May 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://asifislam.dev/tags/news/</guid>
+      <guid>/tags/news/</guid>
       <description></description>
     </item>
     

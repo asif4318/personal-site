@@ -1,4 +1,4 @@
-baseURL = 'https://asifislam.dev'
+# baseURL = 'https://asifislam.dev'
 languageCode = 'en-us'
 title = 'Asif Islam'
 theme = 'tailbliss'

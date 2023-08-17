@@ -1,45 +1,92 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://asifislam.dev'
 languageCode = 'en-us'
-title = 'Asif Islam - Software Engineer'
+title = 'Asif Islam'
 theme = 'tailbliss'
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
 
 [params]
-    author = 'Asif Islam'
-    moto = 'Code with Purpose, Engineer for Good'
-    description = 'Leveraging technology to empower communities and champion the causes that matter.'
+author = 'Asif Islam'
+moto = 'Code with Purpose, Engineer for Good'
+description = 'Leveraging technology to empower communities and champion the causes that matter'
 
-    [params.p1]
-        heading = 'My Mission'
-        [[params.p1.content]]
-            text = ''
-    
-    [params.social_media]
-        github.enabled = true
-        github.url = "https://github.com/asif4318"
-        linkedin.enabled = true
-        linkedin.url = "https://www.linkedin.com/in/asif-islam-ufl/"
-        facebook.url = false
-        facebook.enabled = false
-        instagram.enabled = false
-        instagram.url = ""
-        twitter.enabled = false
-        twitter.url = ""
+[params.p1]
+heading = 'My Mission'
+[[params.p1.content]]
+text = 'My mission is to leverage technology as a software engineering student to empower communities and drive positive change. Through purposeful coding, effective leadership, and collaborative engineering, I am dedicated to building a brighter future.'
+[[params.p1.content]]
+text = 'With the motto "Code with Purpose, Engineer for Good," I am committed to leading teams and creating impactful solutions that uplift society and contribute to a more inclusive and prosperous world.'
+
+
+[params.p2]
+heading = "Committed to Transparency & Accessiblity"
+image = "/images/pages/demo.png"
+[[params.p2.content]]
+text = 'My journey as a computer science student has equipped me with the prowess to navigate complex challenges, innovate fearlessly, and inspire collaborative efforts. Through my hands-on involvement, I have consistently demonstrated adept leadership, steering teams towards remarkable outcomes. This extensive experience bolsters my unwavering commitment to utilizing technology as a force for empowerment and progress. '
+[[params.p2.content]]
+text = 'At my time at the University of Florida (UF), I have created two projects that aim to make UF more accessible and transparent to everyone. The UF Student Government (SG) Legislation Tracker allows people easily to keep up to date with SG while my new bus app for the Gainesville Regional Transit System (RTS) aims to make using the bus system more friendly and accessible for all.'
+
+
+[params.p3]
+heading = "Experienced."
+[[params.p3.content]]
+text = "Being an adaptable software engineer, I take pride in my ability to handpick the most suitable tools for every project I undertake. My experience spans a wide spectrum, encompassing technologies such as NodeJS, Redis, AWS, Firebase, MongoDB, SQL, React, Hugo, .NET, Python, C++, Swift, and Flutter. Whether it's crafting the backend logic or perfecting the frontend experience, I draw upon this diverse expertise. This adaptability allows me to make informed decisions that align with project requirements, ultimately leading to efficient development and successful outcomes. As the tech landscape continually evolves, my proficiency in seamlessly transitioning between languages and platforms remains a cornerstone of my approach to delivering exceptional results."
+[[params.p3.logos]]
+indentifier = "python"
+image = "/images/pages/logos/Python-logo.png"
+[[params.p3.logos]]
+indentifier = "swift"
+image = "/images/pages/logos/swift.webp"
+[[params.p3.logos]]
+indentifier = "node"
+image = "/images/pages/logos/node-js.png"
+[[params.p3.logos]]
+indentifier = "flutter"
+image = "/images/pages/logos/flutter.png"
+[[params.p3.logos]]
+indentifier = "dotnet"
+image = "/images/pages/logos/dotnet.png"
+[[params.p3.logos]]
+indentifier = "cplusplus"
+image = "/images/pages/logos/cpp.png"
+
+[[params.p3.links]]
+text = "Details"
+# TODO: Add link to blog post about the two projects
+url = "#"
+[[params.p3.image]]
+image = "images/pages/code.png"
+
+
+[params.p5]
+
+
+[params.social_media]
+github.enabled = true
+github.url = "https://github.com/asif4318"
+linkedin.enabled = true
+linkedin.url = "https://www.linkedin.com/in/asif-islam-ufl/"
+facebook.url = false
+facebook.enabled = false
+instagram.enabled = false
+instagram.url = ""
+twitter.enabled = false
+twitter.url = ""
 
 [menu]
-    [[menu.main]]
-        identifier = "About"
-        name = "About"
-        url = "/about/"
-        weight = 10
-    [[menu.main]]
-        identifier = "Projects"
-        name = "Projects"
-        url = "/projects/"
-        weight = 20
-    [[menu.main]]
-        identifier = "Contact"
-        name = "Contact"
-        url = "/contact/"
-        weight = 30
- 
-
+[[menu.main]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 10
+[[menu.main]]
+identifier = "Projects"
+name = "Projects"
+url = "/projects/"
+weight = 20
+[[menu.main]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 30

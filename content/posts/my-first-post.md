@@ -10,4 +10,4 @@ tags: Project
 
 Welcome to my new website - currently a work in progress.
 
-In the meantime, visit my [LinkedIn](https://www.linkedin.com/in/asif-islam-ufl/)!
+In the meantime, feel free to explore or visit my [LinkedIn](https://www.linkedin.com/in/asif-islam-ufl/)!

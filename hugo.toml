@@ -1,0 +1,45 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Asif Islam - Software Engineer'
+theme = 'tailbliss'
+
+[params]
+    author = 'Asif Islam'
+    moto = 'Code with Purpose, Engineer for Good'
+    description = 'Leveraging technology to empower communities and champion the causes that matter.'
+
+    [params.p1]
+        heading = 'My Mission'
+        [[params.p1.content]]
+            text = ''
+    
+    [params.social_media]
+        github.enabled = true
+        github.url = "https://github.com/asif4318"
+        linkedin.enabled = true
+        linkedin.url = "https://www.linkedin.com/in/asif-islam-ufl/"
+        facebook.url = false
+        facebook.enabled = false
+        instagram.enabled = false
+        instagram.url = ""
+        twitter.enabled = false
+        twitter.url = ""
+
+[menu]
+    [[menu.main]]
+        identifier = "About"
+        name = "About"
+        url = "/about/"
+        weight = 10
+    [[menu.main]]
+        identifier = "Projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 20
+    [[menu.main]]
+        identifier = "Contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 30
+ 
+
